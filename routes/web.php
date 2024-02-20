@@ -1,5 +1,8 @@
 <?php
 
+use App\Mail\Correo;
+use App\Mail\Forms;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,5 +18,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [\App\Http\Controllers\Controller::class,'index']);
 
-Route::POST('/enviarInfo', [\App\Http\Controllers\Controller::class,'enviarInfo']);
+//Route::POST('/enviarInfo', [\App\Http\Controllers\Controller::class,'enviarInfo'])->name('correo');
 
+Route::POST('email', function () {
+    Mail::to('sofamima1970@gmail.com')->send(new Correo(request()->name, request()->email, request()->celular, request()->mensaje));
+    return view('index');
+})->name('email');

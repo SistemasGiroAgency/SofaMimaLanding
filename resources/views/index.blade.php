@@ -299,7 +299,7 @@
                 <div class="inquiry-item col-md-12">
                     <h2><b>Hablemos de Elegancia</b></h2>
                     <p>Contacta con nosotros y da el primer paso para crear el espacio de tus sueños.</p>
-                    <form action="{{url('enviarInfo')}}" method="POST" role="form" class="php-email-form"">
+                    <form action="{{route('email')}}" method="POST" role="form" class="php-email-form">
                         @csrf
                         <div class="form-input col-lg-12 d-flex mb-3">
                           <input type="text" name="name" placeholder="Nombre" class="form-control ps-3 me-3">
