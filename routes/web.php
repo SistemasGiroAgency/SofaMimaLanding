@@ -21,6 +21,6 @@ Route::get('/', [\App\Http\Controllers\Controller::class,'index']);
 //Route::POST('/enviarInfo', [\App\Http\Controllers\Controller::class,'enviarInfo'])->name('correo');
 
 Route::POST('email', function () {
-    Mail::to('sofamima1970@gmail.com')->send(new Correo(request()->name, request()->email, request()->celular, request()->mensaje));
+    Mail::to('emiliodg511@gmail.com')->send(new Correo(request()->name, request()->email, request()->celular, request()->mensaje));
     return view('index');
 })->name('email');
