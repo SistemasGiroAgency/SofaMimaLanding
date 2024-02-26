@@ -17,4 +17,8 @@ class Controller extends BaseController
         return view('index');
     }
 
+    public function email(){
+        return view('index');
+    }
+
 }
