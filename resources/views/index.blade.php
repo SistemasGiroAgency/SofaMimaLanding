@@ -324,8 +324,11 @@
   <section class="categories overflow-hidden" style="margin-top: 1rem;">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-6 col-12">
-
+        <div class="col-lg-6 col-12 d-flex align-items-center justify-content-center">
+          <div>
+          	<h4 class="titulo fw-bold">Propuesta de valor Sófa Mima</h4>
+            <p class="testimonial-item text-black">Confort y diseño que transforman tu espacio. Cada pieza, una obra de arte en ergonomía y estilo, creada para elevar cada instante de tu vida en casa. Experimenta la exclusividad y la durabilidad que mereces, con un servicio personalizado que entiende tu visión. Tu hogar, nuestro compromiso. <br><br> Confort Innovador: A través de la innovación continua, nuestros sofás y muebles combinan diseño ergonómico con tecnología de punta para ofrecer un confort inigualable y una experiencia de descanso superior. <br><br> Experiencia de Compra Excepcional: Desde la navegación en nuestro sitio web hasta la entrega e instalación, garantizamos una experiencia de compra sin complicaciones. Nuestro equipo de atención al cliente está siempre disponible para asistirte. <br><br> Garantía de Satisfacción: Confiamos tanto en la calidad de nuestros productos que ofrecemos una garantía de satisfacción. Si no estás completamente satisfecho, nos comprometemos a encontrar una solución. <br><br> Innovación y Diseño: Nos mantenemos a la vanguardia en tendencias de diseño de interiores, ofreciendo colecciones que reflejan los estilos más actuales y deseables.</p>
+          </div>
         </div>
         <div class="col-lg-6 col-12">
           <div class="row">
