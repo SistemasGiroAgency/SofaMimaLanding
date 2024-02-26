@@ -22,5 +22,5 @@ Route::get('/', [\App\Http\Controllers\Controller::class,'index']);
 
 Route::POST('email', function () {
     Mail::to("contacto@sofamima.com")->send(new Correo(request()->name, request()->email, request()->celular, request()->mensaje));
-    return view('index');
+    return redirect('/')->with('flash_message_success','El correo fue enviado');
 })->name('email');

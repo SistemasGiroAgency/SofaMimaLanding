@@ -35,7 +35,7 @@ class Correo extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Correo',
+            subject: 'SofaMIMA landing',
         );
     }
 
