@@ -316,7 +316,7 @@
   }
 
   $(window).scroll(function() {    
-    initScrollNav();
+
   }); 
 
   $(window).load(function () {
