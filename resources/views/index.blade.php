@@ -200,10 +200,6 @@
   <nav class="navbar navbar-expand-lg navbar-light text-uppercase fs-6 p-3 border-bottom border-light align-items-center fixed-top border-opacity-10">
     <div class="container-fluid">
       <a class="navbar-brand" href="/"><div class="imglogo"></div></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar">
-            <div class="menuburg"></div>
-      </button>
 
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
@@ -252,12 +248,12 @@
                   <div class="swiper-slide d-flex align-items-center jarallax">
                     <img src="images/sofa-gris-salon-blanco (1).jpg" class="jarallax-img" alt="slideshow">
                     <div class="banner-content w-100">
-                      <div class="container">
+                      <div class="container" style="max-width: fit-content">
                         <div class="row">
                           <div class="col-md-10 offset-md-1 palabrasmain">
                             <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Elegancia Duradera</h2>
                             <p class="caption responsivep">Combina tendencias contemporáneas con la resistencia del tiempo, asegurando que cada pieza sea tan atemporal como sofisticada.</p>
-                            <a href="https://sofamima.giroagency.com/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
+                            <a href="https://sofamima.com/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
                           </div>
                         </div>
                       </div>
@@ -271,7 +267,7 @@
                           <div class="col-md-10 offset-md-1 palabrasmain">
                             <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Confort en cada detalle.</h2>
                             <p class="caption responsivep">Selección meticulosa de materiales de alta calidad, diseño enfocado en el confort, para una experiencia de lujo.</p>
-                            <a href="https://sofamima.giroagency.com/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
+                            <a href="https://sofamima.com/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
                           </div>
                         </div>
                       </div>
@@ -285,7 +281,7 @@
                           <div class="col-md-10 offset-md-1 palabrasmain">
                             <h2 class="display-xl text-uppercase mt-5 pt-5 txt-fx slide-up responsiveh2">Diseños Únicos</h2>
                             <p class="caption responsivep">Cada proyecto es una obra de arte, diseñado para crear espacios únicos y reflejar tu personalidad.</p>
-                            <a href="https://sofamima.giroagency.com/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
+                            <a href="https://sofamima.com/" class="btn btn-mio text-uppercase rounded-3 px-4 py-3 mt-3">Adquierela hoy</a>
                           </div>
                         </div>
                       </div>
@@ -296,7 +292,7 @@
               </div>
             </div>
             <div class="col-lg-4 col-12 d-flex align-items-center justify-content-center" style="padding-left: 2vw; padding-right:2vw;">
-                <div class="inquiry-item col-md-12">
+                <div class="inquiry-item col-md-12 forms">
                     <h2><b>Hablemos de Elegancia</b></h2>
                     <p>Contacta con nosotros y da el primer paso para crear el espacio de tus sueños.</p>
                     <form action="{{route('email')}}" method="POST" role="form" class="php-email-form">
@@ -315,7 +311,7 @@
                           <button class="btn btn-lg text-uppercase btn-rounded-none" style="background-color: #141722;color:white;">Enviar</button>
                         </div>
                     </form>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
@@ -337,7 +333,7 @@
                 <img src="images/Salas.webp" alt="categories" class="jarallax-img img-fluid">
                 <div class="category-content position-absolute bottom-0 p-5 text-uppercase">
                   <h4 class="section-title text-white"><b>Salas</b></h4>
-                  <a href="/catalogo" class="text-white btn-link">Adquiera Hoy</a>
+                  <a href="https://sofamima.com/" class="text-white btn-link">Adquiera Hoy</a>
                 </div>
               </div>
             </div>
@@ -346,7 +342,7 @@
                 <img src="images/Sofa.webp" alt="categories" class="jarallax-img img-fluid">
                 <div class="category-content position-absolute bottom-0 p-5 text-uppercase">
                   <h4 class="section-title text-white"><b>Sofás</b></h4>
-                  <a href="/catalogo" class="text-white btn-link">Adquiera Hoy</a>
+                  <a href="https://sofamima.com/" class="text-white btn-link">Adquiera Hoy</a>
                 </div>
               </div>
             </div>
@@ -355,7 +351,7 @@
                 <img src="images/Comedores.webp" alt="categories" class="jarallax-img img-fluid">
                 <div class="category-content position-absolute bottom-0 p-5 text-uppercase">
                   <h4 class="section-title text-white"><b>Comedores</b></h4>
-                  <a href="/catalogo" class="text-white btn-link">Adquiera Hoy</a>
+                  <a href="https://sofamima.com/" class="text-white btn-link">Adquiera Hoy</a>
                 </div>
               </div>
             </div>
@@ -364,7 +360,7 @@
                 <img src="images/Sillones.jpg" alt="categories" class="jarallax-img img-fluid">
                 <div class="category-content position-absolute bottom-0 p-5 text-uppercase">
                   <h4 class="section-title text-white"><b>Sillones</b></h4>
-                  <a href="/catalogo" class="text-white btn-link">Adquiera Hoy</a>
+                  <a href="https://sofamima.com/" class="text-white btn-link">Adquiera Hoy</a>
                 </div>
               </div>
             </div>

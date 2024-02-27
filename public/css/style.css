@@ -95,7 +95,7 @@ a {
 /* container fluid */
 .container-fluid {
   /* width: 98%; */
-  max-width: 1800px;
+  max-width: 100%;
 }
 
 /* Dropdown */
@@ -1500,7 +1500,7 @@ a.btn-link.text-light:after {
  }
 
 /* Estilos mas detallados de la pagina en responsive */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
   .responsiveh2{
     font-size: 7vh;
     margin-top: 0 !important;
@@ -1527,5 +1527,10 @@ a.btn-link.text-light:after {
 
   .responsiveabouttittle{
     text-align: center;
+  }
+
+  .forms{
+    margin: 2vw;
+    padding: 3vh;
   }
 }
